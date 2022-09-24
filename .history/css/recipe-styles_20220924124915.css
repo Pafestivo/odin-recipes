@@ -20,7 +20,6 @@ body {
 }
 
 .inner {
-  position: relative;
   background-color: #80CF7F; 
   width: 45vw;
   height: 80vh;
@@ -30,48 +29,30 @@ body {
 h1 {
   text-align: center;
   font-size: 3rem;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 30px auto;
   border-bottom: 1px solid black;
   width: 300px;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 150px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 20px auto 0 auto;
-}
-
-p {
-  text-align: center;
-  width: 350px;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
 }
 
-ul,
-ol {
+ul {
   list-style: none;
-  text-align: center;
-  margin: 10px;
-}
-
-li {
-  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 a {
-  position: absolute;
-  top: 85%;
-  left: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px 0;
   width: 350px;
   font-size: 1.5em;
   height: 45px;
@@ -80,4 +61,8 @@ a {
   color: inherit; 
   background-color: #F9F871;
   transition: all 0.1s ease-in;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
