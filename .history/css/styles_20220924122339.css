@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: serif;
+  background-color: #008080;
+}
+
+.container {
+  background-color: #209B87;
+}

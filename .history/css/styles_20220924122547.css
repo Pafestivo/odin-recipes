@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: serif;
+  background-color: #008080;
+  padding: 1;
+}
+
+.container {
+  background-color: #209B87;
+  width: 60vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 50vw
+}
