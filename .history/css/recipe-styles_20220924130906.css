@@ -66,12 +66,9 @@ li {
 }
 
 a {
-  /* positioned relative to the inner div */
   position: absolute;
   top: 85%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  left: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,8 +80,4 @@ a {
   color: inherit; 
   background-color: #F9F871;
   transition: all 0.1s ease-in;
-}
-
-a:hover {
-  transform: scale(1.1);
 }
